@@ -1,0 +1,36 @@
+{
+  "name": "vef2-2021-v1",
+  "version": "1.0.0",
+  "description": "[Kynning í fyrirlestri](https://youtu.be/pCEHnurbuCU).",
+  "main": ".app.js",
+  "type": "module",
+  "dependencies": {
+    "css": "^3.0.0",
+    "ejs": "^3.1.5",
+    "eslint": "^7.18.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "sass": "^1.32.4",
+    "start": "^5.1.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vefforritun/vef2-2021-v1.git"
+  },
+  "author": "Friðrik Hreinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vefforritun/vef2-2021-v1/issues"
+  },
+  "homepage": "https://github.com/vefforritun/vef2-2021-v1#readme"
+}

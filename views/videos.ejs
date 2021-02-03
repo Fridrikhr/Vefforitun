@@ -1,0 +1,15 @@
+<%- include('header') -%>
+<link href="video.css" rel="stylesheet" type="text/css">
+<div class = vid>
+  <h1><%= video.title %></h1>
+
+  <video src="<%= video.video %>" controls></video>
+  <p> <%= videoAge(video.created) %> </p>
+
+  <a href ="/">
+  <li>Til baka</li>
+</a>
+</div>
+
+
+<%- include('footer') -%>

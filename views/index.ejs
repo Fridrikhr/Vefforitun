@@ -1,0 +1,23 @@
+<%- include('header') -%>
+
+<link href="video.css" rel="stylesheet" type="text/css">
+
+
+  <% categories.forEach(categorie => { %>
+      <p class = catTitle><%= categorie.title %></p>
+      <div class = "outer">
+      <% videos.forEach(video => {%>
+        <% if(categorie.videos.includes(video.id)){ %>
+          <div class = "inner">
+            <p class = vidTitle><%= video.title %></p>
+            <a href ="<%= video.id %>">
+              <p>  <img src = "<%= video.poster %>">  </p>
+            </a>
+            <p> <%= videoAge(video.created) %> </p>
+          </div>
+        <% } %>
+      <% }) %>
+    </div>
+  <% }) %>
+
+<%- include('footer') -%>

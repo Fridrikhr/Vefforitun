@@ -1,0 +1,38 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+video {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+
+.vid {
+  margin:0 auto;
+  width: 50%
+}
+
+.outer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.inner {
+  width: 32%;
+}
+
+.catTitle {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.vidTitle {
+  font-weight: 600;
+}
